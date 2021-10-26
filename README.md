@@ -103,6 +103,10 @@ The most challenge part is the 2D SWE simulation. The equations itself is hard t
 
 ## Art Contest
 
+![image](https://user-images.githubusercontent.com/35856355/138810668-de59815f-b66e-4c4c-b6c4-ff966125d1dd.png)
+![1635223848(1)](https://user-images.githubusercontent.com/35856355/138810835-80018881-7837-46eb-b2f8-d770123cb794.png)
+
+
 ## References
 Framework: 
 
