@@ -78,11 +78,34 @@ Continuum Fluid Simulation (both 1D and 2D)
 
 ## Video and Timestamp
 
+Link: https://youtu.be/Cqh2wymQlXM
+
+[![a4ac2084807e90bf401d6d66a3c2150](https://user-images.githubusercontent.com/35856355/138810462-9ecfaeed-f54b-4810-94dc-48976d720af5.png)](https://youtu.be/Cqh2wymQlXM)
+
+Timestamp (also in video description):
+
+0:00 - 1:15 Cloth Simulation without Air Drag
+
+1:16 - 1:42 Cloth Simulation with Air Drag
+
+1:43 - 1:48 Decrease the Air Velocity by x Axis
+
+1:49 - 2:28 Increase the Air Velocity by x Axis
+
+2:29 - 3:39 1D Water Simulation
+
+3:40 - 5:08 2D Water Simulation (including user interaction by pressing 'z' to generate random drop)
+
+
 ## Encountered Difficulties
 
 The most challenge part is the 2D SWE simulation. The equations itself is hard to understand. At the beginning when I tried, the simulation always exploded in seconds. After trying different combination, I found that I need to treat each dimension seperately and calulate their midpoint seperately. 
 
 ## Art Contest
+
+![image](https://user-images.githubusercontent.com/35856355/138810668-de59815f-b66e-4c4c-b6c4-ff966125d1dd.png)
+![1635223848(1)](https://user-images.githubusercontent.com/35856355/138810835-80018881-7837-46eb-b2f8-d770123cb794.png)
+
 
 ## References
 Framework: 
