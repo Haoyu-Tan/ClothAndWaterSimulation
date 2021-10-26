@@ -204,8 +204,8 @@ class Cloth{
     */
     
     
-    k = 200;
-    kd = 15;
+    k = 600;
+    kd = 30;
     
    
     /**
@@ -213,7 +213,7 @@ class Cloth{
     kd = 15;
     */
     
-    k_digLarge = 200;
+    k_digLarge = 400;
     k_digSmall = 200;
     
     /**
@@ -224,11 +224,11 @@ class Cloth{
   }
   
   void setConstToNormalMode(){
-    k = 200;
+    k = 600;
     kd = 30;
    
     
-    k_digLarge = 150;
+    k_digLarge = 400;
     k_digSmall = 180;
    
     inAirDragMode = false;
