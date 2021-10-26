@@ -2,7 +2,11 @@
 
 ## Introduction
 
+This is a project for cloth simulation and water simulation. 
 
+For cloth simulation, I implement the cloth as an array of nodes connected with each others by springs. By calculating the forces on each node, the acceleration, velocity and position of the node can be updated each frame. There are two modes for this simulation, one is cloth without air drag and the other is cloth with air drag. The air drag helps the cloth stops naturally rather than swings back and forth for a while. There is a sphere on scene and the cloth is able to interact with it naturally. I also add a camera to better observe the simulation and multiple lights on scene to improve the rendering.
+
+For water simulation, I choose to implement the shallow water equations(SWE) in both 1D and 2D. For 1D SWE, the water is placed in a tank. For 2D SWE, I place the simulation in a bathtub scene to improve the rendering. 
 
 ## Features
 
@@ -76,7 +80,7 @@ Continuum Fluid Simulation (both 1D and 2D)
 
 ## Encountered Difficulties
 
-
+The most challenge part is the 2D SWE simulation. The equations itself is hard to understand. At the beginning when I tried, the simulation always exploded in seconds. After trying different combination, I found that I need to treat each dimension seperately and calulate their midpoint seperately. 
 
 ## Art Contest
 
