@@ -19,7 +19,7 @@ Cloth cloth;
 //Simulation Parameters
 float floor = 500;
 float floorH = 0;
-PVector g = new PVector(0, 9.8, 0);  //gravity constant
+PVector g = new PVector(0, 5*9.8, 0);  //gravity constant
 
 //float friction = 2.2;
 
@@ -148,16 +148,16 @@ void keyPressed(){
   
   if (key == '+'){
     
-    if (showAirDrag && cloth.v_air.x <= 20){
+    if (showAirDrag && cloth.v_air.x <= 50){
       println("+ is pressed!");
-      cloth.v_air.add(new PVector(1, 0, 0));
+      cloth.v_air.add(new PVector(5, 0, 0));
     }
   }
   
   if (key == '-'){
-    if (showAirDrag && cloth.v_air.x >= -20){
+    if (showAirDrag && cloth.v_air.x >= -50){
       println("- is pressed!");
-      cloth.v_air.sub(new PVector(1, 0, 0));
+      cloth.v_air.sub(new PVector(5, 0, 0));
     }
   }
  

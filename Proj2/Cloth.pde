@@ -31,7 +31,7 @@ class Cloth{
   float k_bounce_sphere = 0.2;
   
   //air force constant
-  float k_aero = -0.000025; //-1/2*p(density)c_d (drag coeffienct)
+  float k_aero = -0.00005; //-1/2*p(density)c_d (drag coeffienct)
   PVector v_air = new PVector(-8, 0, 0);
   
   //collision threshold
