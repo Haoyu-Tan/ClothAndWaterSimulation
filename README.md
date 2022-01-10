@@ -41,6 +41,26 @@ Continuum Fluid Simulation (both 1D and 2D)
 
 -- press 'z' to generate a random drop of water
 
+## Video and Timestamp
+
+Link: https://youtu.be/Cqh2wymQlXM
+
+[![a4ac2084807e90bf401d6d66a3c2150](https://user-images.githubusercontent.com/35856355/138810462-9ecfaeed-f54b-4810-94dc-48976d720af5.png)](https://youtu.be/Cqh2wymQlXM)
+
+Timestamp (also in video description):
+
+0:00 - 1:15 Cloth Simulation without Air Drag
+
+1:16 - 1:42 Cloth Simulation with Air Drag
+
+1:43 - 1:48 Decrease the Air Velocity by x Axis
+
+1:49 - 2:28 Increase the Air Velocity by x Axis
+
+2:29 - 3:39 1D Water Simulation
+
+3:40 - 5:08 2D Water Simulation (including user interaction by pressing 'z' to generate random drop)
+
 
 ## Images
 
@@ -74,27 +94,6 @@ Continuum Fluid Simulation (both 1D and 2D)
  ![47d97bd834ab3120a720d6a693b8ae7](https://user-images.githubusercontent.com/35856355/138801708-4fbada2f-2742-4062-b1c4-4c3ca66dd134.png)
  
  ![3ea98863ba28c00d8bd64f4e281d6cd](https://user-images.githubusercontent.com/35856355/138801745-cfa207e9-e95d-44b4-8d3d-ac4831d66604.png)
-
-
-## Video and Timestamp
-
-Link: https://youtu.be/Cqh2wymQlXM
-
-[![a4ac2084807e90bf401d6d66a3c2150](https://user-images.githubusercontent.com/35856355/138810462-9ecfaeed-f54b-4810-94dc-48976d720af5.png)](https://youtu.be/Cqh2wymQlXM)
-
-Timestamp (also in video description):
-
-0:00 - 1:15 Cloth Simulation without Air Drag
-
-1:16 - 1:42 Cloth Simulation with Air Drag
-
-1:43 - 1:48 Decrease the Air Velocity by x Axis
-
-1:49 - 2:28 Increase the Air Velocity by x Axis
-
-2:29 - 3:39 1D Water Simulation
-
-3:40 - 5:08 2D Water Simulation (including user interaction by pressing 'z' to generate random drop)
 
 
 ## Encountered Difficulties
